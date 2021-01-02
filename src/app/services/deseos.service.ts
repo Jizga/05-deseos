@@ -10,8 +10,13 @@ export class DeseosService {
   listas: Lista[] = [];
 
   constructor() {
-    console.log('Servicio Inicializado');
+
+    const lista1 = new Lista('Recolectar las piedras del Infinito');
+    const lista2 = new Lista('Héroe a desaparecer');
+
+    this.listas.push(lista1, lista2);
+
   }
 
-  
+
 }
