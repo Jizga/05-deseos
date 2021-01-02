@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ExploreContainerComponent } from './explore-container.component';
+import { ExploreContainerComponent } from '../../pages/explore-container/explore-container.component';
 
 @NgModule({
   imports: [ CommonModule, FormsModule, IonicModule],
