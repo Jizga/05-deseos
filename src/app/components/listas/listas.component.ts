@@ -23,4 +23,10 @@ export class ListasComponent {
     }
   }
 
+  borrarLista(lista: Lista){
+
+    this.deseosService.borrarLista( lista )
+
+  }
+
 }
